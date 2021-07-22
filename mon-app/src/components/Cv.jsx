@@ -9,7 +9,7 @@ function Cv() {
           <img
             className="grandePhoto"
             src="https://fr.strikingly.com/content/static/ebb99be55bfadd236424a80916402c40/d17c2/2021-03-18-portfolio-design-graphique.jpg"
-            alt="photo"
+            alt="img"
             onClick="http://localhost:3000/shop"
           />
         </li>

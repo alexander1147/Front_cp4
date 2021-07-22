@@ -1,10 +1,8 @@
 .menu {
-    position: static;
-    display: flex;
-    background: none;
-    justify-content: flex-end;
-    width: 70%;
-    height: 100%;
-    box-shadow: none;
-    padding: auto;
-} 
+  padding: 60px;
+  text-align: right;
+  
+  background: #fbfffe;
+  color: white;
+  font-size: 1em;
+}
