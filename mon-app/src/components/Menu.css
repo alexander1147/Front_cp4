@@ -1,0 +1,10 @@
+.menu {
+    position: static;
+    display: flex;
+    background: none;
+    justify-content: flex-end;
+    width: 70%;
+    height: 100%;
+    box-shadow: none;
+    padding: auto;
+} 

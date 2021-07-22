@@ -1,0 +1,17 @@
+.grandePhoto {
+  max-width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.text {
+  margin: 0, 5em;
+  font-size: 10pt;
+  color: rgb(73, 34, 11);
+  margin: 3em;
+}
+
+.zoom:hover {
+  transition: transform 0.9s;
+  transform: scale(1.1);
+}
