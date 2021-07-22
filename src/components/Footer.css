@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgb(103, 108, 110);
+  display: flex;
+  list-style: none;
+  padding: 1% 0;
+  font-size: 0.8rem;
+  height: 1%;
+}
+
+.pinterest {
+  width: 14%;
+}
+
+.facebook {
+  width: 5%;
+}
+
+.instagram {
+  width: 26%;
+}
+
+.container {
+  align-items: center;
+}

@@ -5,22 +5,21 @@ function Portfolio() {
   return (
     <section className="body">
       <div className="zoom">
-        <li>
-          <a href="http://localhost:3000/shop">
-            <img
-              className="grandePhoto"
-              src="https://fr.strikingly.com/content/static/ebb99be55bfadd236424a80916402c40/d17c2/2021-03-18-portfolio-design-graphique.jpg"
-              alt="photo"
-              onClick="http://localhost:3000/shop"
-            />
-          </a>
-        </li>
-        <h3 className="text">Projets réalisées</h3>
+        <a href="">
+          <img
+            className="grandePhoto"
+            src="https://fr.strikingly.com/content/static/ebb99be55bfadd236424a80916402c40/d17c2/2021-03-18-portfolio-design-graphique.jpg"
+            alt="photo"
+            onClick="http://localhost:3000/shop"
+          />
+        </a>
+
+        <h3 className="textPhoto">Projets réalisées</h3>
       </div>
       <div className="container">
         <article>
           <img
-            className="photoKezako"
+            className="photoPortfolio"
             src="https://bucket.mlcdn.com/a/3123/3123652/images/575af8a8a85f73d0cf1a0fec08f2380cdf1d956e.jpeg"
             alt=""
           />
@@ -35,7 +34,7 @@ function Portfolio() {
 
         <article>
           <img
-            className="photoKezako"
+            className="photoPortfolio"
             src="https://bucket.mlcdn.com/a/3123/3123652/images/575af8a8a85f73d0cf1a0fec08f2380cdf1d956e.jpeg"
             alt=""
           />
@@ -50,7 +49,7 @@ function Portfolio() {
 
         <article>
           <img
-            className="photoKezako"
+            className="photoPortfolio"
             src="https://bucket.mlcdn.com/a/3123/3123652/images/575af8a8a85f73d0cf1a0fec08f2380cdf1d956e.jpeg"
             alt=""
             onClick="http://localhost:3000/Contact"
