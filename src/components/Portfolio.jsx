@@ -3,7 +3,7 @@ import "./Portfolio.css";
 
 function Portfolio() {
   return (
-    <section className="body">
+    <section className="">
       <div className="zoom">
         <a href="">
           <img

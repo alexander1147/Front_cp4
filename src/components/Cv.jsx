@@ -5,7 +5,7 @@ function Cv() {
   return (
     <section className="">
       <div className="zoom">
-        {/* <h3 className="text">Cv</h3> */}
+  
 
         <img
           className="cvPhoto"

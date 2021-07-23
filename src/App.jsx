@@ -8,6 +8,9 @@ import Cv from "./components/Cv";
 import Footer from "./components/Footer";
 import Projets from "./components/Projets";
 import Accueil from "./components/Accueil";
+import Contact from "./components/Contact";
+
+
 
 function App() {
   return (
@@ -23,8 +26,11 @@ function App() {
         <Route path="/Projets">
           <Projets />
         </Route>
+        <Route path="/Contact">
+          <Contact />
+        </Route>
+        <Accueil />
       </Switch>
-      {/* <Portfolio /> */}
       <Footer />
     </div>
   );

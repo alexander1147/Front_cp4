@@ -13,9 +13,8 @@ function Accueil() {
             onClick="http://localhost:3000/shop"
           />
         </a>
-
-        <h3 className="textPhoto">Projets réalisées</h3>
       </div>
+      <h3 className="textPhoto">Projets réalisées</h3>
       <div className="container">
         <article>
           <img

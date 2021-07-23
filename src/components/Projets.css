@@ -10,7 +10,7 @@
     padding: 1em;
     border-radius: 5px;
     box-shadow: 1px 1px 10px grey;
-    max-width: 60%;
+    max-width: 10%;
     height: auto;
     margin: 3em;
   }
@@ -21,11 +21,6 @@
     position: relative;
   }
   
-  .grandePhoto {
-    max-width: 90%;
-    display: block;
-    margin: auto;
-  }
   
   .text {
     margin: 0, 5em;
