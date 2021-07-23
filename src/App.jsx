@@ -7,21 +7,23 @@ import Menu from "./components/Menu";
 import Cv from "./components/Cv";
 import Footer from "./components/Footer";
 import Projets from "./components/Projets";
+import Accueil from "./components/Accueil";
 
 function App() {
   return (
     <div className="App">
+      <Menu />
       <Switch>
+        <Route path="/Accueil">
+          <Accueil />
+        </Route>
         <Route path="/Cv">
           <Cv />
         </Route>
-      </Switch>
-      <Switch>
         <Route path="/Projets">
           <Projets />
         </Route>
       </Switch>
-      <Menu />
       {/* <Portfolio /> */}
       <Footer />
     </div>
